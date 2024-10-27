@@ -15,7 +15,7 @@ body {
 
 .App {
   width: 100%;
-  max-width: 800px;
+  max-width: 1000px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -36,7 +36,7 @@ h1 {
 
 main {
   background-color: white;
-  padding: 20px;
+  width: 1000px;
   border-radius: 0 0 10px 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   flex-grow: 1;
@@ -86,10 +86,24 @@ main {
 .suggestion {
   margin-top: 20px;
   padding: 10px;
-  background-color: rgb(95, 174, 175);
+  background-color: rgb(123, 205, 205);
   color: white;
   border-radius: 5px;
   font-style: italic;
   max-width: 600px;
   text-align: center;
+}
+.past-entry {
+  display: flex;
+  background-color: rgb(95, 174, 175);
+  color: white;
+  padding: 15px 15px; 
+  flex-direction: row;
+  text-align: center;
+  gap: 15px; 
+  border-radius: 10px 10px 10px 10px;
+}
+
+.past-entry {
+  margin-bottom: 10px;
 }
